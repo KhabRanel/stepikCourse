@@ -1,0 +1,135 @@
+body {
+  color: #000000;
+}
+
+.header-title {
+  color: #005fa3;
+  font-size: 36px;
+}
+
+.header-contact-link {
+  text-decoration: none;
+}
+
+/* .header-contact-text {
+  color: #000000;
+} */
+
+.header-nav-link {
+  text-decoration: none;
+  color: #222222;
+  text-transform: uppercase;
+}
+
+.desc-section {
+  /* background-color: #000000; */
+  background-image: url(../img/first-screen-bkg.jpg);
+}
+
+.desc-title,
+.desc-link {
+  color: #ffffff;
+}
+
+.desc-link {
+  text-decoration: none;
+}
+
+.gray-section {
+  background: #ebebeb;
+}
+
+.section-title {
+  color: #bdbdbd;
+}
+
+.section-sub-title {
+  font-size: 48px;
+  font-weight: 900;
+  color: #333333;
+}
+
+.services-item-title {
+  color: #ffffff;
+}
+
+.services-item-link {
+  text-decoration: none;
+  background-color: #000000;
+  background-image: url(../img/second-screen-bkg.jpg);
+}
+
+.about-us-additional-color {
+  color: #005fa3;
+}
+
+.about-us-text {
+  font-weight: 300;
+}
+
+.about-us-item-title {
+  font-size: 55px;
+}
+
+.review-button {
+  background-color: #005fa3;
+  color: #ffffff;
+  border: none;
+  font-size: 18px;
+}
+
+.review-item-text {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.review-item-desc {
+  color: #4f4f4f;
+  font-size: 14px;
+}
+
+.review-autor {
+  font-size: 18px;
+  font-weight: 900;
+}
+
+.slider-button-prev,
+.slider-button-next {
+  background-color: #005fa3;
+  border: none;
+}
+
+.review-page {
+  background-color: #005fa3;
+  border: none;
+  border-radius: 100%;
+}
+
+.advantages-item-title {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.footer-section {
+  background-color: #000000;
+  background-image: url(../img/first-screen-bkg.jpg);
+}
+
+.footer-title {
+  color: #ffffff;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.footer-desc {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.footer-item-link {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: 300;
+}
