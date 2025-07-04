@@ -6,6 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -54,10 +60,8 @@
         <ul>
           <li>
             <a class="services-item-link" href="#"
-              ><h3 class="services-item-title">
-                Бухгалтерское обслуживание
-              </h3></a
-            >
+              ><h3 class="services-item-title">Бухгалтерское обслуживание</h3>
+            </a>
           </li>
           <li>
             <a class="services-item-link" href="#"
@@ -89,7 +93,7 @@
       <section>
         <h2 class="section-title">О нас</h2>
         <p class="section-sub-title">
-          Компания <span class="about-us- additional-color"> ИвановПром </span>
+          Компания <span class="about-us-additional-color"> ИвановПром </span>
         </p>
         <span class="about-us-text">
           Lorem Ipsum - это текст-"рыба", часто используемый в печати и
@@ -101,25 +105,33 @@
           дизайн.
         </span>
         <ul>
-          <li>
+          <li class="about-us-item">
             <p class="about-us-item-title">90</p>
-            <h3>Завершено крупных сделок</h3>
-            <a class="about-us-additional-color" href="#">Все кейсы</a>
+            <h3 class="about-us-item-desc">Завершено крупных сделок</h3>
+            <a class="about-us-item-link" href="#"
+              ><span class="about-us-additional-color">Все кейсы</span></a
+            >
           </li>
-          <li>
+          <li class="about-us-item">
             <p class="about-us-item-title">90</p>
-            <h3>Завершено крупных сделок</h3>
-            <a class="about-us-additional-color" href="#">Все кейсы</a>
+            <h3 class="about-us-item-desc">Завершено крупных сделок</h3>
+            <a class="about-us-item-link" href="#"
+              ><span class="about-us-additional-color">Все кейсы</span></a
+            >
           </li>
-          <li>
+          <li class="about-us-item">
             <p class="about-us-item-title">90</p>
-            <h3>Завершено крупных сделок</h3>
-            <a class="about-us-additional-color" href="#">Все кейсы</a>
+            <h3 class="about-us-item-desc">Завершено крупных сделок</h3>
+            <a class="about-us-item-link" href="#"
+              ><span class="about-us-additional-color">Все кейсы</span></a
+            >
           </li>
-          <li>
+          <li class="about-us-item">
             <p class="about-us-item-title">90</p>
-            <h3>Завершено крупных сделок</h3>
-            <a class="about-us-additional-color" href="#">Все кейсы</a>
+            <h3 class="about-us-item-desc">Завершено крупных сделок</h3>
+            <a class="about-us-item-link" href="#"
+              ><span class="about-us-additional-color">Все кейсы</span></a
+            >
           </li>
         </ul>
       </section>
@@ -142,7 +154,7 @@
         <p class="section-sub-title">Ваши благодарности</p>
         <button class="review-button" type="button">Оставить отзыв</button>
         <ul>
-          <li>
+          <li class="review-item">
             <p class="review-item-text">
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
@@ -155,7 +167,7 @@
             <p class="review-autor">Екатерина Иванова</p>
             <p class="review-item-desc">Директор ООО “Раз-два”</p>
           </li>
-          <li>
+          <li class="review-item">
             <p class="review-item-text">
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
@@ -168,7 +180,7 @@
             <p class="review-autor">Екатерина Иванова</p>
             <p class="review-item-desc">Директор ООО “Раз-два”</p>
           </li>
-          <li>
+          <li class="review-item">
             <p class="review-item-text">
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
@@ -181,7 +193,7 @@
             <p class="review-autor">Екатерина Иванова</p>
             <p class="review-item-desc">Директор ООО “Раз-два”</p>
           </li>
-          <li>
+          <li class="review-item">
             <p class="review-item-text">
               Lorem Ipsum - это текст-"рыба", часто используемый в печати и
               вэб-дизайне. Lorem Ipsum является стандартной "рыбой" для текстов
@@ -250,8 +262,8 @@
       </div>
       <div>form</div>
       <div>
-        <p>2019 (с) Все права защищены. БухОне.ру</p>
-        <p>Разработано: BuhOne</p>
+        <p class="deep-footer-first">2019 (с) Все права защищены. БухОне.ру</p>
+        <p class="deep-footer-second">Разработано: BuhOne</p>
       </div>
     </footer>
   </body>

@@ -1,24 +1,34 @@
 body {
   color: #000000;
+  font-family: "Roboto";
+  font-weight: 400;
+  letter-spacing: 0;
 }
 
 .header-title {
   color: #005fa3;
+  font-family: "Merriweather";
   font-size: 36px;
+  font-weight: 900;
+  line-height: 138%;
 }
 
 .header-contact-link {
   text-decoration: none;
 }
 
-/* .header-contact-text {
+.header-contact-text {
   color: #000000;
-} */
+  font-size: 13px;
+  line-height: 132%;
+}
 
 .header-nav-link {
-  text-decoration: none;
   color: #222222;
+  text-decoration: none;
   text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .desc-section {
@@ -26,13 +36,20 @@ body {
   background-image: url(../img/first-screen-bkg.jpg);
 }
 
-.desc-title,
-.desc-link {
+.desc-title {
   color: #ffffff;
+  font-family: "Merriweather";
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 138%;
 }
 
 .desc-link {
+  color: #ffffff;
+  background: #005fa3;
   text-decoration: none;
+  font-size: 25px;
+  line-height: 138%;
 }
 
 .gray-section {
@@ -41,16 +58,24 @@ body {
 
 .section-title {
   color: #bdbdbd;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 138%;
 }
 
 .section-sub-title {
+  color: #333333;
+  font-family: "Merriweather";
   font-size: 48px;
   font-weight: 900;
-  color: #333333;
+  line-height: 144%;
 }
 
 .services-item-title {
   color: #ffffff;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 126%;
 }
 
 .services-item-link {
@@ -64,33 +89,61 @@ body {
 }
 
 .about-us-text {
+  font-size: 18px;
   font-weight: 300;
+  line-height: 138%;
+}
+
+.about-us-item {
+  background: #ebebeb;
 }
 
 .about-us-item-title {
   font-size: 55px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+}
+
+.about-us-item-desc {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 132%;
+}
+
+.about-us-item-link {
+  font-size: 14px;
+  font-weight: 700;
 }
 
 .review-button {
   background-color: #005fa3;
   color: #ffffff;
   border: none;
+  font-family: "Roboto";
   font-size: 18px;
+  line-height: 138%;
+}
+
+.review-item {
+  background: #ebebeb;
 }
 
 .review-item-text {
   font-size: 18px;
   font-weight: 300;
+  line-height: 138%;
 }
 
 .review-item-desc {
   color: #4f4f4f;
   font-size: 14px;
+  line-height: 138%;
 }
 
 .review-autor {
   font-size: 18px;
   font-weight: 900;
+  line-height: 138%;
 }
 
 .slider-button-prev,
@@ -108,6 +161,7 @@ body {
 .advantages-item-title {
   font-size: 36px;
   font-weight: 700;
+  line-height: 132%;
 }
 
 .footer-section {
@@ -117,14 +171,17 @@ body {
 
 .footer-title {
   color: #ffffff;
+  font-family: "Merriweather";
   font-size: 48px;
   font-weight: 900;
+  line-height: 144%;
 }
 
 .footer-desc {
   color: #ffffff;
   font-size: 18px;
   font-weight: 300;
+  line-height: 138%;
 }
 
 .footer-item-link {
@@ -132,4 +189,17 @@ body {
   text-decoration: none;
   font-size: 21px;
   font-weight: 300;
+  line-height: 138%;
+}
+
+.deep-footer-first {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 138%;
+}
+
+.deep-footer-second {
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 138%;
 }
